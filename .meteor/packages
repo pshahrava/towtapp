@@ -1,0 +1,19 @@
+# Meteor packages used by this project, one per line.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+accounts-password
+aldeed:autoform
+aldeed:collection2
+forwarder:autoform-wizard
+iron:router
+less
+meteor-platform
+momentjs:moment
+semantic:ui-css
+fabienb4:autoform-semantic-ui
+forwarder:autoform-wizard-iron-router
+yogiben:autoform-file
+cfs:standard-packages
+cfs:gridfs
