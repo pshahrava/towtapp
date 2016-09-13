@@ -2,6 +2,46 @@
   {{> wizard id="basic" route="basic" steps=steps stepsTemplate="steps_semanticUI" buttonClasses="ui button"}}
 </template>
 
+<template name="violation">
+  <h2>this is the violation view</h2>
+  {{#autoForm id="violation-id" doc=step.data schema=step.schema}}
+
+
+    {{> wizardButtons}}
+
+  {{/autoForm}}
+</template>
+
+<template name="location">
+  <h2>this is the location view</h2>
+  {{#autoForm id="location-id" doc=step.data schema=step.schema}}
+
+
+    {{> wizardButtons}}
+
+  {{/autoForm}}
+</template>
+
+<template name="description">
+  <h2>this is the description view</h2>
+  {{#autoForm id="description-id" doc=step.data schema=step.schema}}
+
+
+    {{> wizardButtons}}
+
+  {{/autoForm}}
+</template>
+
+<template name="photo">
+  <h2>this is the photo view</h2>
+  {{#autoForm id="photo-id" doc=step.data schema=step.schema}}
+
+
+    {{> wizardButtons}}
+
+  {{/autoForm}}
+</template>
+
 <template name="viewLead">
   <p>Placeholder for review and editing of lead.</p>
 

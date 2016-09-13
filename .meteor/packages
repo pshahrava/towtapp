@@ -3,17 +3,31 @@
 # 'meteor add' and 'meteor remove' will edit this file for you,
 # but you can also edit it by hand.
 
-accounts-password
+accounts-password@1.3.0
 aldeed:autoform
 aldeed:collection2
-forwarder:autoform-wizard
 iron:router
-less
-meteor-platform
+less@2.7.5
 momentjs:moment
 semantic:ui-css
 fabienb4:autoform-semantic-ui
-forwarder:autoform-wizard-iron-router
 yogiben:autoform-file
 cfs:standard-packages
-cfs:gridfs
+meteor-base
+mobile-experience
+mongo
+blaze-html-templates
+session
+jquery
+tracker
+logging
+reload
+random
+ejson
+spacebars
+check
+standard-minifier-css
+standard-minifier-js
+shell-server
+craphtex:autoform-wizard
+craphtex:autoform-wizard-iron-router

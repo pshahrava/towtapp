@@ -125,22 +125,30 @@ Template.basic.helpers({
     return [{
       id: 'step1',
       title: 'Choose a violation',
-      schema: Schemas.step1
+      schema: Schemas.step1,
+      template: 'violation',
+      formId: 'violation-id'
     },
     {
       id: 'step2',
       title: 'Location',
-      schema: Schemas.step2
+      schema: Schemas.step2,
+      template: 'location',
+      formId: 'location-id'
     },
     {
       id: 'step3',
       title: 'Vehicle description',
-      schema: Schemas.step3
+      schema: Schemas.step3,
+      template: 'description',
+      formId: 'description-id'
     },
     {
       id: 'step4',
       title: 'Photo evidence',
       schema: Schemas.step4,
+      template: 'photo',
+      formId: 'photo-id',
       onSubmit: function(data, wizard) {
         var self = this;
         Orders.insert(_.extend(wizard.mergedData(), data), function(err, id) {
