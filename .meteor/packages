@@ -31,3 +31,5 @@ standard-minifier-js
 shell-server
 craphtex:autoform-wizard
 craphtex:autoform-wizard-iron-router
+twbs:bootstrap
+fortawesome:fontawesome

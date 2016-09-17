@@ -3,26 +3,28 @@
 </template>
 
 <template name="violation">
-  <h2>this is the violation view</h2>
+  <h2 class="fleft">Choose a violation</h2>
+  <h2 class="fright">Step 1</h2>
+  <div class="cboth"></div>
   {{#autoForm id="violation-id" doc=step.data schema=step.schema}}
 
 
-  <ul style="border:3px solid red !important;">
-    <li>Parked in bus lane</li>
-    <li>Street cleaning</li>
-    <li>Disabled parking</li>
-    <li>Parked during rush hour</li>
-    <li>Residential permit parking</li>
-    <li>Within 15 feet of fire hydrant</li>
-    <li>Blocking driveway or fire lane</li>
-    <li>Double parked</li>
-    <li>Parked in crosswalk or bike lane</li>
-    <li>No city sticker</li>
-    <li>Parked in alley</li>
-    <li>Parked  in bus or taxi stand</li>
-    <li>Parking or standing prohibited anytime</li>
-    <li>Missing rear or front plate</li>
-    <li>Expired plates or temporary registration</li>
+  <ul class="violation-list">
+    <li><a href="">Parked in bus lane</a></li>
+    <li><a href="">Street cleaning</a></li>
+    <li><a href="">Disabled parking</a></li>
+    <li><a href="">Parked during rush hour</a></li>
+    <li><a href="">Residential permit parking</a></li>
+    <li><a href="">Within 15 feet of fire hydrant</a></li>
+    <li><a href="">Blocking driveway or fire lane</a></li>
+    <li><a href="">Double parked</a></li>
+    <li><a href="">Parked in crosswalk or bike lane</a></li>
+    <li><a href="">No city sticker</a></li>
+    <li><a href="">Parked in alley</a></li>
+    <li><a href="">Parked  in bus or taxi stand</a></li>
+    <li><a href="">Parking or standing prohibited anytime</a></li>
+    <li><a href="">Missing rear or front plate</a></li>
+    <li><a href="">Expired plates or temporary registration</a></li>
   </ul>
 
     {{> wizardButtons}}

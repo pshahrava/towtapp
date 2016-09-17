@@ -1,13 +1,25 @@
-h1 {
-  margin-bottom: 40px;
-}
+h1 { margin-bottom: 40px; }
 .main.container {
   width: 60%;
   min-width: 500px;
   margin: 0 auto;
-  padding: 50px;
 }
 
 .ui.steps {
   margin-bottom: 40px;
 }
+
+body{ background: #3093c4; color: #fff; }
+header{ background: #295a7d; padding: 20px; margin-bottom: 25px; }
+.logo{ display:block; width: 150px; }
+button.wizard-next-button.ui.button{ width: 100%; font-size:19px; color: #fff; background: #ee3b55; }
+
+.fleft{ float: left; }
+.fright{ float: right; }
+.cboth{ clear: both; }
+
+.violation-list{ padding: 0; background: #f7f7f7; border-radius: 10px; }
+.violation-list li{ font-size:19px; font-weight:bold; list-style: none; padding: 15px 0 15px 15px; border-bottom: 1px solid #e0e0e0; }
+.violation-list li a{ color: #000; }
+
+
